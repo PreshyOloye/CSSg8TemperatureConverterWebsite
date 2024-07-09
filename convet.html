@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Of A Temperature Converter</title>
+    <link rel="stylesheet" href="convert.css">
+</head>
+<body>
+    <nav>
+        <div class="main">
+            <div class="logo"><h2>Temperature <span>Converter</span></h2></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+        </div>
+    </nav>
+
+
+    <div class="converter">
+        <div class="converter_container">
+            <h1>Temperature Converter</h1> <br>
+            
+            <label  for="fromUnit">From:</label> 
+            <select id="fromunit">
+                <option value=""></option>
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select> 
+
+            <label  for="toUnit">To:</label> 
+            <select id="tounit">
+                <option value=""></option>
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select>
+
+            <label for="temprature">Temperature</label>
+            <input type="number" id="temprature" placeholder="Enter Temperature">
+            <button onclick="convert()"> Convert </button>
+
+            <label for="result">Result:</label>
+            <input type="text" id="result" readonly>
+        </div>
+    </div>
+
+
+    <script src="converter.js"></script>
+</body>
+</html>

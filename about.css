@@ -1,0 +1,97 @@
+*{
+    font-size: small;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    font-size: x-small;
+}
+header h4 {
+    font-size: smaller;
+}
+header h4 li a {
+    list-style-type: none;
+}
+
+header h4 a{
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header h4 a:hover{
+    color: #6e6e6e;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+.table{
+    border: 1px solid;
+    background-color: #333;
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.table tr th {
+    color: #f5f4ad;
+}
+
+.table tr td{
+    border: 0px solid;
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+.footer p a{
+    text-decoration: none;
+    color: #007bff;
+    transition: 0.2s;
+}
+.footer p a:hover{
+    color: #fff;
+}
